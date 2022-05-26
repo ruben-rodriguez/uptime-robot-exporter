@@ -1,6 +1,9 @@
 # uptime-robot-exporter
 Exports [Uptime Robot](https://uptimerobot.com/) monitor statuses to [Prometheus](https://prometheus.io/)
 
+> This is currently a hobby project for having fun, nothing too serious, hence not ready for production.
+> Feel free to clone, steal, adapt and drop any comments or Pull Requests.
+
 ## Running
 
 Set the following environment variables:
@@ -44,8 +47,9 @@ Then, prometheus should be reachable at http://localhost:9090/ and configured wi
 ## TO-DO
 
 - [ ] Control API rate limits and other status codes
-- [ ] Add Tests
+- [ ] Add Tests + CI
 - [ ] More metrics based in Uptime Robot API response
 - [ ] Helm Chart for k8s deployment
 - [ ] Improve logging
-- [ ] Add Uptime Robot log events
+- [ ] Add Uptime Robot log events?
+- [ ] Versioning & Releases
